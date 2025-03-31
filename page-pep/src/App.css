@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+
+.botoes {
+  color: #fff;
+  background-color: #ec6a00;
+  border-color: #ec6a00;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  gap: 100px
+}
+
+
+.botoes:hover {
+  color: #fff;
+  background-color: #f7994d;
+  border-color: #f7994d;
+}
+
+.botoes:focus,                      /* Botao já selecionado */
+.botoes.focus {            
+  color: #fff;
+  background-color: #153e73;
+  border-color: #153e73;
+  box-shadow: #153e73
+}
+
+.botoes:active, 
+.botoes.active {                    /* click no botao */
+  color: #fff;
+  background-color: #153e73;
+  border-color: #153e73;
+}
+
+.botoes:disabled, 
+.botoes.disabled {
+  color: #fff;
+  background-color: #153e73;
+  border-color: #153e73;
+  opacity: 0.65;
+}
+
+#divFazParte {
+  display: flex;
+  flex-direction: column; /* Empilha os itens verticalmente */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+
+#tituloFazParte {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #ec6a00;
+}
+
+
+#botoesContainer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  display: flex;
+  gap: 50px; /* Espaçamento entre os botões */
+}
+
+.logo {
+  width: 100px; /* Ajuste a largura */
+  height: auto; /* Mantém a proporção */
+  position: absolute; /* Posicionamento absoluto */
+  top: 10px; /* Distância do topo */
+  left: 10px; /* Distância da esquerda */
+}
+
+.logo {
+  width: 100px; /* Ajuste a largura */
+  height: auto; /* Mantém a proporção */
+  position: absolute; /* Posicionamento absoluto */
+  top: 10px; /* Distância do topo */
+  left: 10px; /* Distância da esquerda */
+}
+
+
+
