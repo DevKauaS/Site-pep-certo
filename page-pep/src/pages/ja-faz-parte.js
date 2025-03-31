@@ -18,7 +18,7 @@ const JaFazParte = () => {
       </div>
       <img src={LogoItau} alt="Logo do Itaú" className="logo" />
 
-    </div>
+    </div> 
   );
 };
 
